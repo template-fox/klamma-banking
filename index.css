@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 * {
-    font-family: 'Inter', Courier, monospace;
+    /* font-family: 'Inter', Courier, monospace; */
 }
 
 [x-cloak] { display: none; }
@@ -50,7 +50,7 @@ button.theme {
 }
 
 p {
-    @apply text-light leading-normal;
+    @apply text-gray-500 font-bold leading-normal;
 }
 
 section {
@@ -82,3 +82,15 @@ section > div{
     @apply text-lighter;
 }
 
+.menu ul {
+    @apply flex max-w-lg  flex-wrap justify-around
+}
+
+
+.menu ul li{
+    @apply px-4
+}
+
+.bg-image {
+    background-image: url(/images/bg-image.png);
+}
