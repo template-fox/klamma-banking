@@ -1,6 +1,6 @@
 ## About Template Fox
 
-![Alt text](/screenshot.png?raw=true "Screenshot")
+![Alt text](/banking.surge.sh_.png?raw=true "Screenshot")
 
 I am full stack developer who enjoys converting designs from picture to web page.
 
